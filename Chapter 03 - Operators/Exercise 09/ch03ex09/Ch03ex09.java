@@ -1,5 +1,5 @@
 package ch03ex09;
-import static slavvv1011.Print.*;
+import static ptmoskal.Print.*;
 
 public class Ch03ex09 {
 
