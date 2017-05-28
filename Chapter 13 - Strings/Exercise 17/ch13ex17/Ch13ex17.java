@@ -20,7 +20,6 @@ public class Ch13ex17 {
 		String s = TextFile.read(args[0]);
 		int index = 1;
 		Matcher m = Pattern.compile("(/\\*([^*]|[\r\n]|(\\*+([^*/]|[\r\n])))*\\*+/)|(//.*)").matcher(s);
-		index = 1;
 		/**** Comment 5 ****/
 		while(m.find()) {
 			System.out.println(index++ + ". " + m.group());
